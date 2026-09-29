@@ -1,0 +1,130 @@
+1. Title 
+syntax: st.title("My app")
+Definition : displays the main title of the streamlit application
+
+2. header
+syntax : st.header("About)
+Defintion: 
+
+3. subheader
+syntax: st.subheader("details")
+Definition: displays a smaller section heading below a header
+
+4. Text
+syntax: st.text("hello world")
+definition:displays palin text in the streamlit application
+
+5. markdown
+syntax: st.markdown("***hello world***")
+definition: displays formmated text using markdown syntax
+
+6.caption 
+syntax: st.caption("this is caption")
+definition : displays small secondary or muted text
+
+7. code
+syntax: st.code("print('hello')"
+definition : displays programming code with syntax highlighting
+
+8.LaTex
+syntax: st.latex(r"E = mc^2")
+definition: displays mathematical equations using LaTex formatting
+
+9. Divider
+syntax: st.divider()
+definition: adds a horizontal line to separate different sections of the application
+
+INPUT COMPONENTS
+
+Text Input
+syntax: name = st.text_input("enter your name")
+definition: allows the user to enter a single line of text
+
+2. Text Area
+syntax: message = st.text_area("Enter your message")
+definition: allows the user to enter multiple lines of text
+
+3.number input
+syntax: age = st.number
+
+4. slider
+syntax: value = st.slider("select a avalue",0,100)
+definition: allows the user to select a value from a specifit=ed value
+
+5. selectbox
+syntax: option = st.selectionbox(choose a option",["A""B""C"])
+definition: allows the user to select one option from a down list
+
+6.multiselect
+syntax: options = st.multiselect("choose a option",["A""B""C"])
+definition: allows the user to select multiple option from a down list
+
+7.radio
+syntax: choice = st.radio("select your gender",[male][female]
+definition: allows the user to select exactly one option using radio button
+
+8.checkbox
+syntax: agree = st.checkbox("I agree")
+definition: provides a checkbox that returns true when selected and false otherwise
+
+10. button
+syntax: if st.button("click me")
+definition: creates a clickable button that can trigger an action
+
+11. Data input
+syntax: date = dt.data_input("select a date")
+definition : allows the user to select a date
+
+12. Time input
+syntax: Time = dt.time_input("select a time")
+definition : allows the user to select a time
+
+13.color picker
+syntax: color = st. color_picker("choose a color","#dd1919")
+definition: allows the user to select a color.
+
+14. File uploader
+syntax: file = st.file_uploader("upload a file")
+def: allows the user to upload a file to the streamlit application.
+
+status and messages components
+
+success
+syntax: st.success("operation completed successfully!")
+def: displays a success message to the user
+
+2. info
+syntax: st.info("this is some information.")
+def: displays an informational messaga
+
+3. warning
+syntax: st.warning("please be careful")
+def : displays an warning message to the user.
+
+4. Error
+syntax: st.error("something went wrong")
+def: displays an error message to the user
+
+5.Exception
+syntax:st.exception(e)
+def: displays detailed information
+
+media components
+
+image
+syntax: st.image("image.jpg")
+def: displays an image in the streamlit applications
+
+2.audio
+syntax:st.audio("audio.mp3")
+def: adds an audio player to the play an audio file
+
+3. video
+syntax:st.video("video.mp4")
+def: adds a vdo player to display a vdo
+
+4. camera input
+syntax: photo =st.camera_input("take a picture")
+def: allows the user to capture an image using their device camera.
+
+used ollama
